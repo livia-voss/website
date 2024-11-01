@@ -1,0 +1,64 @@
+body {
+    color: rgb(0, 71, 141);
+    background-color: rgb(204, 229, 255);
+    padding: 80px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+h1 {color: white;}
+
+h2 {color: rgb(100, 100, 100)}
+
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0,1);
+    border-radius: 4px;
+    margin:20px 0px;
+}
+
+.cropped-image {
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover; 
+    display: block; 
+}
+
+
+.email-form input {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+    margin: 1em 0;
+}
+
+.primary-btn {
+    padding: 15px 20px;
+    background-color: blue;
+    color: white;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.hero-banner {
+    background-image: url(https://media.istockphoto.com/id/1384513137/fr/photo/communication-globale.jpg?s=612x612&w=0&k=20&c=FyZ8aOdVL9rKR4ZUJWos6RD1WIW30pqkhqp_aIT-96o=);   
+    background-size: cover;     
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh; /* Hauteur de la bannière */
+}
